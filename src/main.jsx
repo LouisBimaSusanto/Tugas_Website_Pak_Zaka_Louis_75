@@ -7,6 +7,8 @@ import UserLayout from './Layouts/UserLayout.jsx'
 // pages
 import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
+import Products from './Pages/Products.jsx'
+import Contact from './Pages/Contact.jsx'
 
 
 const routes = createBrowserRouter([
@@ -21,6 +23,14 @@ const routes = createBrowserRouter([
       {
         path: '/about',
         element: <About />
+      },
+      {
+        path: '/products',
+        element: <Products />
+      },
+      {
+        path: '/contact',
+        element: <Contact />
       }
     ]
   }

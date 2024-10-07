@@ -25,33 +25,33 @@ const About = () => {
                 <Link to="/" className='text-[#3DC2EC] flex gap-2 items-center underline text-justify'> <span>More About Us</span> <FaArrowRight size={15} color='black' /></Link>
             </div>
         </div>
-        <div className='mt-32'>
+        <div className='mt-32 pb-32'>
             <h1 className='text-3xl text-white text-center font-bold'>What Do We Do?</h1>
             <p className='text-center text-lg max-w-sm mx-auto mt-5 text-white'>Games are a lot of fun. We make games that are fun for everyone</p>
             <div className='grid grid-cols-3 gap-x-10 gap-2 mt-20'>
-                <div className='flex flex-col gap-3 justify-betweeen border items-center'>
+                <div className='flex flex-col gap-3 justify-betweeen items-center'>
                     <div className=''>
                         <img src={about1} alt="" className='mx-auto' />
                         <h1 className='text-white text-xl font-bold text-center mt-2'>Game Developer</h1>
                         <p className='text-white text-center max-w-sm mt-2'>Our works have been internationally recognized for their design, stories and art direction. Together, we can  transform your ideas into captivating games, on desktop, mobile or console.</p>
                     </div>
-                    <Link to={`/`} className='text-[#3DC2EC]' >More Information</Link>
+                    <Link to={`/`} className='text-[#3DC2EC] underline' >More Information</Link>
                 </div>
-                <div className='flex flex-col gap-3 justify-between border items-center'>
+                <div className='flex flex-col gap-3 justify-between items-center'>
                     <div>
                         <img src={about2} alt="" className='mx-auto' />
                         <h1 className='text-white text-xl font-bold text-center mt-2'>Game Design</h1>
                         <p className='text-white text-center max-w-sm mt-2'>We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
                     </div>
-                    <Link to={`/`} className='text-[#3DC2EC]' >More Information</Link>
+                    <Link to={`/`} className='text-[#3DC2EC] underline' >More Information</Link>
                 </div>
-                <div className='flex flex-col gap-3 justify-between border items-center'>
+                <div className='flex flex-col gap-3 justify-between items-center'>
                     <div>
                         <img src={about3} alt="" className='mx-auto' />
                         <h1 className='text-white text-xl font-bold text-center mt-2'>Game Art</h1>
                         <p className='text-white text-center max-w-sm mt-2'>We make award-winning games with unique art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
                     </div>
-                    <Link to={`/`} className='text-[#3DC2EC]' >More Information</Link>
+                    <Link to={`/`} className='text-[#3DC2EC] underline' >More Information</Link>
                 </div>
             </div>
         </div>
